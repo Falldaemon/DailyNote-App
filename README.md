@@ -21,7 +21,7 @@ Follow these steps to install the application on your system.
 First, download the project files to your computer using Git:
 
 ```bash
-git clone https://github.com/Falldaemon/DailyNote-App.git
+git clone [https://github.com/Faldaemon/DailyNote-App.git](https://github.com/Falldaemon/DailyNote-App.git)
 ```
 
 ```bash
