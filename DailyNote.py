@@ -20,9 +20,26 @@ import threading
 import gettext
 import locale
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 APP_NAME = "dailynote"
-LOCALE_DIR = os.path.join(BASE_DIR, "locale")
+HOME = os.path.expanduser("~")
+
+installed_dir = os.path.join(HOME, '.local', 'share', APP_NAME)
+is_installed = os.path.abspath(os.path.dirname(__file__)) == installed_dir
+
+if is_installed:
+    BASE_DIR = installed_dir
+    LOCALE_DIR = os.path.join(HOME, '.local', 'share', 'locale')
+    DB_NAME = os.path.join(BASE_DIR, "notes.db") # Keep DB with other app data
+else:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    LOCALE_DIR = os.path.join(BASE_DIR, "locale")
+    DB_NAME = os.path.join(BASE_DIR, "notes.db")
+
+ICONS_DIR = os.path.join(BASE_DIR, "icons")
+ALARMS_DIR = os.path.join(BASE_DIR, "alarms")
+os.makedirs(os.path.dirname(DB_NAME), exist_ok=True)
+
+
 
 try:
     locale.setlocale(locale.LC_ALL, '')
@@ -37,9 +54,6 @@ _ = gettext.gettext
 Gst.init(None)
 Notify.init("DailyNote")
 
-DB_NAME = os.path.join(BASE_DIR, "notes.db")
-ICONS_DIR = os.path.join(BASE_DIR, "icons")
-ALARMS_DIR = os.path.join(BASE_DIR, "alarms")
 HEADERS = {'User-Agent': 'NoteApplication/1.0 (example@mail.com)'}
 
 def setup_database():
