@@ -14,21 +14,7 @@ Change the application-wide font and size.
 
 Window resizing and transparency adjustment.
 
-Installation
-Follow these steps to install the application on your system.
-
-1. Clone the Repository
-First, download the project files to your computer using Git:
-
-```bash
-git clone https://github.com/Faldaemon/DailyNote-App.git
-```
-
-```bash
-cd DailyNote-App
-```
-
-2. Install Dependencies
+1. Install Dependencies
 Next, install the necessary dependencies for your Linux distribution. The installation script will check for these, but it's best to install them beforehand.
 
 For Debian / Ubuntu based systems:
@@ -47,6 +33,17 @@ For Fedora:
 
 ```bash
 sudo dnf install python3-gobject gtk3 gstreamer1-plugins-base libappindicator-gtk3 libnotify python3-requests
+```
+
+2. Clone the Repository
+First, download the project files to your computer using Git:
+
+```bash
+git clone https://github.com/Faldaemon/DailyNote-App.git
+```
+
+```bash
+cd DailyNote-App
 ```
 
 3. Run the Installation Script
