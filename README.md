@@ -20,7 +20,8 @@ Follow these steps to install the application on your system.
 1. Clone the Repository
 First, download the project files to your computer using Git:
 
-git clone [https://github.com/Falldaemon/DailyNote-App.git](https://github.com/KULLANICI_ADINIZ/DailyNote-App.git)
+git clone [https://github.com/KULLANICI_ADINIZ/DailyNote-App.git](https://github.com/Falldaemon/DailyNote-App.git)
+cd DailyNote-App
 
 
 2. Install Dependencies
@@ -28,28 +29,20 @@ Next, install the necessary dependencies for your Linux distribution. The instal
 
 For Debian / Ubuntu based systems:
 
-```bash
 sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-gst-plugins-base-1.0 gir1.2-appindicator3-0.1 gir1.2-notify-0.7 python3-requests
-...
 
 For Arch Linux based systems:
 
-```bash
 sudo pacman -S python-gobject gtk3 gst-plugins-base-libs libappindicator-gtk3 libnotify python-requests
-...
 
 For Fedora:
 
-```bash
 sudo dnf install python3-gobject gtk3 gstreamer1-plugins-base libappindicator-gtk3 libnotify python3-requests
-...
 
 3. Run the Installation Script
 Finally, run the make install command from within the project directory. This command does not require sudo.
 
-```bash
 make install
-...
 
 This will:
 
@@ -73,7 +66,6 @@ By typing dailynote in your terminal.
 Uninstallation
 To remove the application from your system, navigate back to the project directory where you cloned it and run:
 
-```bash
 make uninstall
-...
+
 This will remove all files, shortcuts, and autostart entries created during installation.
