@@ -1,0 +1,758 @@
+# Turkish translation for dailynote
+# Copyright (C) 2025 THE dailynote'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the dailynote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dailynote\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-30 21:55+0300\n"
+"PO-Revision-Date: 2025-08-30 21:55+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: DailyNote.py:123 DailyNote.py:270
+msgid "DailyNote"
+msgstr "DailyNote"
+
+#: DailyNote.py:288 DailyNote.py:734
+msgid "Application Settings"
+msgstr "Uygulama Ayarları"
+
+#: DailyNote.py:291 DailyNote.py:1260
+msgid "Change Font"
+msgstr "Yazı Tipini Değiştir"
+
+#: DailyNote.py:298
+msgid "Backup Database"
+msgstr "Veritabanını Yedekle"
+
+#: DailyNote.py:301
+msgid "Restore from Backup"
+msgstr "Yedekten Geri Yükle"
+
+#: DailyNote.py:338
+msgid "Search in notes..."
+msgstr "Notlarda ara..."
+
+#: DailyNote.py:347
+msgid "Daily Notes"
+msgstr "Günlük Notlar"
+
+#: DailyNote.py:353
+msgid "Add New Fixed Note/Reminder"
+msgstr "Yeni Sabit Not/Hatırlatıcı Ekle"
+
+#: DailyNote.py:356
+msgid "Fixed Notes"
+msgstr "Sabit Notlar"
+
+#: DailyNote.py:364
+msgid "Current Weather:"
+msgstr "Anlık Hava Durumu:"
+
+#: DailyNote.py:369
+msgid "Loading weather information..."
+msgstr "Hava durumu bilgisi yükleniyor..."
+
+#: DailyNote.py:375
+msgid "Add Note"
+msgstr "Not Ekle"
+
+#: DailyNote.py:376 DailyNote.py:1003
+msgid "Alarm"
+msgstr "Alarm"
+
+#: DailyNote.py:377
+msgid "Location"
+msgstr "Konum"
+
+#: DailyNote.py:383
+msgid "Weekly View"
+msgstr "Haftalık Görünüm"
+
+#: DailyNote.py:384
+msgid "Monthly View"
+msgstr "Aylık Görünüm"
+
+#: DailyNote.py:385
+msgid "Advanced Weather"
+msgstr "Gelişmiş Hava Durumu"
+
+#: DailyNote.py:442
+msgid "DailyNote Calendar"
+msgstr "DailyNote Takvimi"
+
+#: DailyNote.py:452
+msgid "Add New Note"
+msgstr "Yeni Not Ekle"
+
+#: DailyNote.py:455
+msgid "Show Application"
+msgstr "Uygulamayı Göster"
+
+#: DailyNote.py:458
+msgid "Quit"
+msgstr "Çıkış"
+
+#: DailyNote.py:539
+msgid "No search results found."
+msgstr "Arama sonucu bulunamadı."
+
+#: DailyNote.py:541
+msgid "No notes for that day"
+msgstr "O gün için not yok"
+
+#: DailyNote.py:603
+msgid "Weekly View"
+msgstr "Haftalık Görünüm"
+
+#: DailyNote.py:614
+msgid "Monthly View"
+msgstr "Aylık Görünüm"
+
+#: DailyNote.py:750
+msgid "Width:"
+msgstr "Genişlik:"
+
+#: DailyNote.py:751
+msgid "Height:"
+msgstr "Yükseklik:"
+
+#: DailyNote.py:760
+msgid "Window Opacity:"
+msgstr "Pencere Şeffaflığı:"
+
+#: DailyNote.py:764
+msgid "Save and Close"
+msgstr "Kaydet ve Kapat"
+
+#: DailyNote.py:779
+msgid "Add New Daily Note"
+msgstr "Yeni Günlük Not Ekle"
+
+#: DailyNote.py:785
+msgid "Title..."
+msgstr "Başlık..."
+
+#: DailyNote.py:787
+msgid "Content:"
+msgstr "İçerik:"
+
+#: DailyNote.py:796
+msgid "Save"
+msgstr "Kaydet"
+
+#: DailyNote.py:813
+msgid "Edit Note"
+msgstr "Notu Düzenle"
+
+#: DailyNote.py:820
+msgid "Content:"
+msgstr "İçerik:"
+
+#: DailyNote.py:832
+msgid "Save"
+msgstr "Kaydet"
+
+#: DailyNote.py:834
+msgid "Delete"
+msgstr "Sil"
+
+#: DailyNote.py:848
+msgid "Are you sure you want to delete this note?"
+msgstr "Bu notu silmek istediğinizden emin misiniz?"
+
+#: DailyNote.py:849
+msgid "No"
+msgstr "Hayır"
+
+#: DailyNote.py:850
+msgid "Yes"
+msgstr "Evet"
+
+#: DailyNote.py:902
+msgid "Title"
+msgstr "Başlık"
+
+#: DailyNote.py:905
+msgid "Content:"
+msgstr "İçerik:"
+
+#: DailyNote.py:922
+msgid "Snooze duration (min):"
+msgstr "Erteleme süresi (dk):"
+
+#: DailyNote.py:927
+msgid "Snooze"
+msgstr "Ertele"
+
+#: DailyNote.py:928
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: DailyNote.py:947
+msgid "Alarm snoozed until {time}."
+msgstr "Alarm {time} zamanına ertelendi."
+
+#: DailyNote.py:981
+msgid "Select Note for Alarm"
+msgstr "Alarm İçin Not Seç"
+
+#: DailyNote.py:993
+msgid "No notes for that day"
+msgstr "O gün için not yok"
+
+#: DailyNote.py:1022
+msgid "Alarm Settings: {title}"
+msgstr "Alarm Ayarları: {title}"
+
+#: DailyNote.py:1027
+msgid "Set Time (HH:MM):"
+msgstr "Zaman Ayarla (SS:DD):"
+
+#: DailyNote.py:1031
+msgid "Select Alarm Sound:"
+msgstr "Alarm Sesi Seç:"
+
+#: DailyNote.py:1039
+msgid "Play Sound"
+msgstr "Sesi Çal"
+
+#: DailyNote.py:1040
+msgid "Stop Sound"
+msgstr "Sesi Durdur"
+
+#: DailyNote.py:1042
+msgid "Volume:"
+msgstr "Ses Seviyesi:"
+
+#: DailyNote.py:1047
+msgid "Alarm Duration (s):"
+msgstr "Alarm Süresi (sn):"
+
+#: DailyNote.py:1059
+msgid "Save"
+msgstr "Kaydet"
+
+#: DailyNote.py:1060
+msgid "Delete (Remove Alarm)"
+msgstr "Sil (Alarmı Kaldır)"
+
+#: DailyNote.py:1107
+msgid "Today's Notes"
+msgstr "Bugünün Notları"
+
+#: DailyNote.py:1121
+msgid "Disable Notifications"
+msgstr "Bildirimleri Kapat"
+
+#: DailyNote.py:1121
+msgid "Enable Notifications"
+msgstr "Bildirimleri Aç"
+
+#: DailyNote.py:1138
+msgid "Please set a location."
+msgstr "Lütfen bir konum belirleyin."
+
+#: DailyNote.py:1146
+msgid "Could not retrieve weather."
+msgstr "Hava durumu alınamadı."
+
+#: DailyNote.py:1155
+msgid "Failed to get weather data."
+msgstr "Hava durumu verisi alınamadı."
+
+#: DailyNote.py:1160
+msgid "Could not get time series data from API."
+msgstr "API'den zaman serisi verisi alınamadı."
+
+#: DailyNote.py:1172
+msgid "Fair"
+msgstr "Açık"
+
+#: DailyNote.py:1172
+msgid "Clear"
+msgstr "Güneşli"
+
+#: DailyNote.py:1173
+msgid "Clear (Night)"
+msgstr "Açık (Gece)"
+
+#: DailyNote.py:1173
+msgid "Partly Cloudy"
+msgstr "Parçalı Bulutlu"
+
+#: DailyNote.py:1174
+msgid "Partly Cloudy (Night)"
+msgstr "Parçalı Bulutlu (Gece)"
+
+#: DailyNote.py:1174
+msgid "Cloudy"
+msgstr "Bulutlu"
+
+#: DailyNote.py:1175
+msgid "Rain"
+msgstr "Yağmurlu"
+
+#: DailyNote.py:1175
+msgid "Heavy Rain"
+msgstr "Sağanak Yağışlı"
+
+#: DailyNote.py:1175
+msgid "Fog"
+msgstr "Sisli"
+
+#: DailyNote.py:1191
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: DailyNote.py:1213
+msgid "Error displaying weather data."
+msgstr "Hava durumu verisi görüntülenirken hata oluştu."
+
+#: DailyNote.py:1216
+msgid "Location Settings"
+msgstr "Konum Ayarları"
+
+#: DailyNote.py:1220
+msgid "Location Name:"
+msgstr "Konum Adı:"
+
+#: DailyNote.py:1222
+msgid "City, Country Code"
+msgstr "Şehir, Ülke Kodu"
+
+#: DailyNote.py:1224
+msgid "Latitude:"
+msgstr "Enlem:"
+
+#: DailyNote.py:1226
+msgid "00.0000 (North +, South -)"
+msgstr "00.0000 (Kuzey +, Güney -)"
+
+#: DailyNote.py:1228
+msgid "Longitude:"
+msgstr "Boylam:"
+
+#: DailyNote.py:1230
+msgid "00.0000 (East +, West -)"
+msgstr "00.0000 (Doğu +, Batı -)"
+
+#: DailyNote.py:1233
+msgid "Save"
+msgstr "Kaydet"
+
+#: DailyNote.py:1234
+msgid "Reset to Default"
+msgstr "Sıfırla"
+
+#: DailyNote.py:1247
+msgid "Latitude and longitude must be numeric values."
+msgstr "Enlem ve boylam sayısal değerler olmalıdır."
+
+#: DailyNote.py:1255
+msgid "5-Day Weather Forecast for {location}"
+msgstr "{location} için 5 Günlük Hava Tahmini"
+
+#: DailyNote.py:1261
+msgid ""
+"To see the advanced weather forecast,\n"
+"please set a location first."
+msgstr ""
+"Gelişmiş hava durumu tahminini görmek için,\n"
+"lütfen önce bir konum belirleyin."
+
+#: DailyNote.py:1268
+msgid "Invalid or incomplete data from API."
+msgstr "API'den geçersiz veya eksik veri geldi."
+
+#: DailyNote.py:1274
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: DailyNote.py:1274
+msgid "Tuesday"
+msgstr "Salı"
+
+#: DailyNote.py:1274
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: DailyNote.py:1274
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: DailyNote.py:1274
+msgid "Friday"
+msgstr "Cuma"
+
+#: DailyNote.py:1274
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: DailyNote.py:1274
+msgid "Sunday"
+msgstr "Pazar"
+
+#: DailyNote.py:1275
+msgid "Morning"
+msgstr "Sabah"
+
+#: DailyNote.py:1275
+msgid "Noon"
+msgstr "Öğle"
+
+#: DailyNote.py:1275
+msgid "Evening"
+msgstr "Akşam"
+
+#: DailyNote.py:1275
+msgid "Night"
+msgstr "Gece"
+
+#: DailyNote.py:1301
+msgid "Wind: {speed} m/s"
+msgstr "Rüzgar: {speed} m/s"
+
+#: DailyNote.py:1302
+msgid "Humidity: %{humidity}"
+msgstr "Nem: %{humidity}"
+
+#: DailyNote.py:1310
+msgid "Close"
+msgstr "Kapat"
+
+#: DailyNote.py:1314
+msgid "Could not retrieve weather data."
+msgstr "Hava durumu verisi alınamadı."
+
+#: DailyNote.py:1360 DailyNote.py:1396
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: DailyNote.py:1360 DailyNote.py:1396
+msgid "Tuesday"
+msgstr "Salı"
+
+#: DailyNote.py:1360 DailyNote.py:1396
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: DailyNote.py:1360 DailyNote.py:1396
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: DailyNote.py:1360 DailyNote.py:1396
+msgid "Friday"
+msgstr "Cuma"
+
+#: DailyNote.py:1360 DailyNote.py:1396
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: DailyNote.py:1360 DailyNote.py:1396
+msgid "Sunday"
+msgstr "Pazar"
+
+#: DailyNote.py:1439
+msgid "Edit Fixed Note/Reminder"
+msgstr "Sabit Notu/Hatırlatıcıyı Düzenle"
+
+#: DailyNote.py:1439
+msgid "Add New Fixed Note/Reminder"
+msgstr "Yeni Sabit Not/Hatırlatıcı Ekle"
+
+#: DailyNote.py:1444
+msgid "Title:"
+msgstr "Başlık:"
+
+#: DailyNote.py:1448
+msgid "Description (Optional):"
+msgstr "Açıklama (İsteğe Bağlı):"
+
+#: DailyNote.py:1458
+msgid "Event Time (e.g., 09:00):"
+msgstr "Etkinlik Zamanı (örn: 09:00):"
+
+#: DailyNote.py:1464
+msgid "Enable Alarm"
+msgstr "Alarmı Etkinleştir"
+
+#: DailyNote.py:1467
+msgid "Repeat Type:"
+msgstr "Tekrar Türü:"
+
+#: DailyNote.py:1469
+msgid "Weekly (On selected days)"
+msgstr "Haftalık (Seçili günlerde)"
+
+#: DailyNote.py:1470
+msgid "Monthly (On a specific day of the month)"
+msgstr "Aylık (Ayın belirli bir gününde)"
+
+#: DailyNote.py:1471
+msgid "Yearly (On a specific date)"
+msgstr "Yıllık (Belirli bir tarihte)"
+
+#: DailyNote.py:1478
+msgid "Mon"
+msgstr "Pzt"
+
+#: DailyNote.py:1478
+msgid "Tue"
+msgstr "Sal"
+
+#: DailyNote.py:1478
+msgid "Wed"
+msgstr "Çar"
+
+#: DailyNote.py:1478
+msgid "Thu"
+msgstr "Per"
+
+#: DailyNote.py:1478
+msgid "Fri"
+msgstr "Cum"
+
+#: DailyNote.py:1478
+msgid "Sat"
+msgstr "Cmt"
+
+#: DailyNote.py:1478
+msgid "Sun"
+msgstr "Paz"
+
+#: DailyNote.py:1481
+msgid "Weekly"
+msgstr "Haftalık"
+
+#: DailyNote.py:1484
+msgid "Day of the Month:"
+msgstr "Ayın Günü:"
+
+#: DailyNote.py:1488
+msgid "Monthly"
+msgstr "Aylık"
+
+#: DailyNote.py:1491
+msgid "Date:"
+msgstr "Tarih:"
+
+#: DailyNote.py:1496
+msgid "January"
+msgstr "Ocak"
+
+#: DailyNote.py:1496
+msgid "February"
+msgstr "Şubat"
+
+#: DailyNote.py:1496
+msgid "March"
+msgstr "Mart"
+
+#: DailyNote.py:1496
+msgid "April"
+msgstr "Nisan"
+
+#: DailyNote.py:1496
+msgid "May"
+msgstr "Mayıs"
+
+#: DailyNote.py:1496
+msgid "June"
+msgstr "Haziran"
+
+#: DailyNote.py:1497
+msgid "July"
+msgstr "Temmuz"
+
+#: DailyNote.py:1497
+msgid "August"
+msgstr "Ağustos"
+
+#: DailyNote.py:1497
+msgid "September"
+msgstr "Eylül"
+
+#: DailyNote.py:1497
+msgid "October"
+msgstr "Ekim"
+
+#: DailyNote.py:1497
+msgid "November"
+msgstr "Kasım"
+
+#: DailyNote.py:1497
+msgid "December"
+msgstr "Aralık"
+
+#: DailyNote.py:1501
+msgid "Yearly"
+msgstr "Yıllık"
+
+#: DailyNote.py:1546
+msgid "Save"
+msgstr "Kaydet"
+
+#: DailyNote.py:1555
+msgid "Delete"
+msgstr "Sil"
+
+#: DailyNote.py:1584
+msgid "Are you sure you want to delete this fixed note?"
+msgstr "Bu sabit notu silmek istediğinizden emin misiniz?"
+
+#: DailyNote.py:1642
+msgid "Mon"
+msgstr "Pzt"
+
+#: DailyNote.py:1642
+msgid "Tue"
+msgstr "Sal"
+
+#: DailyNote.py:1642
+msgid "Wed"
+msgstr "Çar"
+
+#: DailyNote.py:1642
+msgid "Thu"
+msgstr "Per"
+
+#: DailyNote.py:1642
+msgid "Fri"
+msgstr "Cum"
+
+#: DailyNote.py:1642
+msgid "Sat"
+msgstr "Cmt"
+
+#: DailyNote.py:1642
+msgid "Sun"
+msgstr "Paz"
+
+#: DailyNote.py:1643
+msgid "Jan"
+msgstr "Oca"
+
+#: DailyNote.py:1643
+msgid "Feb"
+msgstr "Şub"
+
+#: DailyNote.py:1643
+msgid "Mar"
+msgstr "Mar"
+
+#: DailyNote.py:1643
+msgid "Apr"
+msgstr "Nis"
+
+#: DailyNote.py:1643
+msgid "May"
+msgstr "May"
+
+#: DailyNote.py:1643
+msgid "Jun"
+msgstr "Haz"
+
+#: DailyNote.py:1643
+msgid "Jul"
+msgstr "Tem"
+
+#: DailyNote.py:1643
+msgid "Aug"
+msgstr "Ağu"
+
+#: DailyNote.py:1643
+msgid "Sep"
+msgstr "Eyl"
+
+#: DailyNote.py:1643
+msgid "Oct"
+msgstr "Eki"
+
+#: DailyNote.py:1643
+msgid "Nov"
+msgstr "Kas"
+
+#: DailyNote.py:1643
+msgid "Dec"
+msgstr "Ara"
+
+#: DailyNote.py:1662
+msgid "Every {days}"
+msgstr "Her {days}"
+
+#: DailyNote.py:1665
+msgid "On the {day}. of every month"
+msgstr "Her ayın {day}. günü"
+
+#: DailyNote.py:1668
+msgid "Every year on {month} {day}"
+msgstr "Her yıl {month} {day}"
+
+#: DailyNote.py:1670
+msgid "Alarm:"
+msgstr "Alarm:"
+
+#: DailyNote.py:1670
+msgid "Event:"
+msgstr "Etkinlik:"
+
+#: DailyNote.py:1675
+msgid "{prefix} {time} (Does not repeat)"
+msgstr "{prefix} {time} (Tekrarlanmıyor)"
+
+#: DailyNote.py:1677
+msgid "Reminder: ({rule})"
+msgstr "Hatırlatıcı: ({rule})"
+
+#: DailyNote.py:1679
+msgid "Undated, non-repeating note"
+msgstr "Tarihsiz, tekrarlanmayan not"
+
+#: DailyNote.py:1718
+msgid "Backup Successful!\nFile saved to:\n{path}"
+msgstr "Yedekleme Başarılı!\nDosya şuraya kaydedildi:\n{path}"
+
+#: DailyNote.py:1724
+msgid "An error occurred during backup:\n{error}"
+msgstr "Yedekleme sırasında bir hata oluştu:\n{error}"
+
+#: DailyNote.py:1732
+msgid "WARNING!"
+msgstr "UYARI!"
+
+#: DailyNote.py:1735
+msgid ""
+"This action will delete all your current notes and replace them with the "
+"selected backup file. Are you sure you want to continue?"
+msgstr ""
+"Bu işlem tüm mevcut notlarınızı silecek ve seçilen yedek dosyasıyla "
+"değiştirecektir. Devam etmek istediğinizden emin misiniz?"
+
+#: DailyNote.py:1740
+msgid "Database Files"
+msgstr "Veritabanı Dosyaları"
+
+#: DailyNote.py:1747
+msgid "Restore Successful!"
+msgstr "Geri Yükleme Başarılı!"
+
+#: DailyNote.py:1747
+msgid "Please restart the application for the changes to take effect."
+msgstr "Değişikliklerin etkili olması için lütfen uygulamayı yeniden başlatın."
+
+#: DailyNote.py:1753
+msgid "An error occurred during restore:\n{error}"
+msgstr "Geri yükleme sırasında bir hata oluştu:\n{error}"
+
+#: DailyNote.py:1260
+msgid "Select Font"
+msgstr "Yazı Tipi Seç"
