@@ -19,11 +19,5 @@ To run the application, you need to install the necessary dependencies for your 
 
 ```bash
 sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-gst-plugins-base-1.0 gir1.2-appindicator3-0.1 gir1.2-notify-0.7 python3-requests
-
-For Arch Linux based systems:
-Bash
-
-sudo pacman -S python-gobject gtk3 gst-plugins-base-libs libappindicator-gtk3 libnotify python-requests
-
-
+```
 
