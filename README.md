@@ -39,7 +39,7 @@ sudo dnf install python3-gobject gtk3 gstreamer1-plugins-base libappindicator-gt
 First, download the project files to your computer using Git:
 
 ```bash
-git clone https://github.com/Faldaemon/DailyNote-App.git
+git clone [https://github.com/Falldaemon/DailyNote-App.git](https://github.com/Falldaemon/DailyNote-App.git)
 ```
 
 ```bash
