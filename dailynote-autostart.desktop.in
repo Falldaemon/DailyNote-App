@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=DailyNote Autostart
+Comment=Starts the DailyNote application in the background on login
+Comment[tr]=Girişte DailyNote uygulamasını arka planda başlatır
+Exec=@@EXEC@@
+Icon=@@ICON@@
+Terminal=false
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

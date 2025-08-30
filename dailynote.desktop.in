@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DailyNote
+Comment=An application to take daily notes and create reminders
+Comment[tr]=Günlük notlar almak ve hatırlatmalar oluşturmak için bir uygulama
+Exec=@@EXEC@@
+Icon=@@ICON@@
+Terminal=false
+Categories=Office;Utility;
+Keywords=note;diary;todo;reminder;journal;organizer;not;günlük;ajanda;hatırlatıcı;
