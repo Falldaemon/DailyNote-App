@@ -26,3 +26,8 @@ sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-gst-plugi
 ```bash
 sudo pacman -S python-gobject gtk3 gst-plugins-base-libs libappindicator-gtk3 libnotify python-requests
 ```
+### For Fedora:
+
+```bash
+sudo dnf install python3-gobject gtk3 gstreamer1-plugins-base libappindicator-gtk3 libnotify python3-requests
+...
