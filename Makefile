@@ -35,14 +35,14 @@ check:
 	@# Check for required Python modules
 	@$(PYTHON) -c "import requests" >/dev/null 2>&1 || \
 		(echo "❌ ERROR: Python module 'requests' is not installed." && \
-		 echo "   Please install it using your distribution's package manager:" && \
-		 echo "   - Debian/Ubuntu: sudo apt-get install python3-requests" && \
-		 echo "   - Arch Linux:    sudo pacman -S python-requests" && \
-		 echo "   - Fedora:        sudo dnf install python3-requests" && exit 1)
+		 echo "   Please install it using your distribution's package manager:" && \
+		 echo "   - Debian/Ubuntu: sudo apt-get install python3-requests" && \
+		 echo "   - Arch Linux:    sudo pacman -S python-requests" && \
+		 echo "   - Fedora:        sudo dnf install python3-requests" && exit 1)
 
 	@$(PYTHON) -c "import gi; gi.require_version('Gtk', '3.0')" >/dev/null 2>&1 || \
 		(echo "❌ ERROR: Python GObject/GTK3 libraries are not installed or configured correctly." && \
-		 echo "   Please install the necessary packages for your distribution (e.g., python3-gi, gir1.2-gtk-3.0)." && exit 1)
+		 echo "   Please install the necessary packages for your distribution (e.g., python3-gi, gir1.2-gtk-3.0)." && exit 1)
 
 	@echo "✅ All dependencies are met."
 
@@ -51,15 +51,15 @@ install: check mo
 	@echo "--- Installing DailyNote..."
 	# Create necessary directories
 	mkdir -p $(BIN_DIR)
-	mkdir -p $(SHARE_DIR)/icons/dark
-	mkdir -p $(SHARE_DIR)/icons/light
+	mkdir -p $(SHARE_DIR)/icons
 	mkdir -p $(SHARE_DIR)/alarms
 	mkdir -p $(APPLICATIONS_DIR)
 	mkdir -p $(AUTOSTART_DIR)
 
-	# Copy application files
-	cp -r icons/dark/* $(SHARE_DIR)/icons/dark/
-	cp -r icons/light/* $(SHARE_DIR)/icons/light/
+	
+	cp -r icons/* $(SHARE_DIR)/icons/
+
+	# Copy other application files
 	cp -r alarms/* $(SHARE_DIR)/alarms/
 	cp DailyNote.py $(SHARE_DIR)/
 
@@ -77,12 +77,13 @@ install: check mo
 	@echo '$(PYTHON) $(SHARE_DIR)/DailyNote.py "$$@"' >> $(BIN_DIR)/$(APP_NAME)
 	chmod +x $(BIN_DIR)/$(APP_NAME)
 
+	
 	# Generate and install .desktop files
-	sed 's|@@EXEC@@|$(BIN_DIR)/$(APP_NAME)|g; s|@@ICON@@|$(SHARE_DIR)/icons/icon.png|g' dailynote.desktop.in > $(APPLICATIONS_DIR)/$(APP_NAME).desktop
-	sed 's|@@EXEC@@|$(BIN_DIR)/$(APP_NAME) --startup|g; s|@@ICON@@|$(SHARE_DIR)/icons/icon.png|g' dailynote-autostart.desktop.in > $(AUTOSTART_DIR)/$(APP_NAME).desktop
+	sed 's|@@EXEC@@|$(BIN_DIR)/$(APP_NAME)|g; s|@@ICON@@|$(SHARE_DIR)/icons/calendar.png|g' dailynote.desktop.in > $(APPLICATIONS_DIR)/$(APP_NAME).desktop
+	sed 's|@@EXEC@@|$(BIN_DIR)/$(APP_NAME) --startup|g; s|@@ICON@@|$(SHARE_DIR)/icons/calendar.png|g' dailynote-autostart.desktop.in > $(AUTOSTART_DIR)/$(APP_NAME).desktop
 
 	@echo "🎉 Installation complete!"
-	@echo "   You can now run 'dailynote' from your terminal or find it in your application menu."
+	@echo "   You can now run 'dailynote' from your terminal or find it in your application menu."
 
 # Uninstalls the application
 uninstall:
