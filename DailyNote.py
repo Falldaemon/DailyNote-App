@@ -1,10 +1,3 @@
-import gi
-gi.require_version("Gtk", "3.0")
-gi.require_version('Gst', '1.0')
-gi.require_version('AppIndicator3', '0.1')
-gi.require_version('PangoCairo', '1.0')
-gi.require_version('Notify', '0.7')
-from gi.repository import Gtk, GLib, Gdk, GdkPixbuf, Gst, Pango, AppIndicator3, PangoCairo, Notify, Gio
 import time
 import sqlite3
 import os
@@ -19,6 +12,22 @@ import sys
 import threading
 import gettext
 import locale
+
+import gi
+
+gi.require_version("Gtk", "3.0")
+gi.require_version('Gst', '1.0')
+gi.require_version('PangoCairo', '1.0')
+gi.require_version('Notify', '0.7')
+
+try:
+    gi.require_version('AyatanaAppIndicator3', '0.1')
+    from gi.repository import AyatanaAppIndicator3 as AppIndicator3
+except (ValueError, ImportError):
+    gi.require_version('AppIndicator3', '0.1')
+    from gi.repository import AppIndicator3
+
+from gi.repository import Gtk, GLib, Gdk, GdkPixbuf, Gst, Pango, PangoCairo, Notify, Gio
 
 APP_NAME = "dailynote"
 HOME = os.path.expanduser("~")

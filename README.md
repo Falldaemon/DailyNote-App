@@ -20,7 +20,7 @@ Next, install the necessary dependencies for your Linux distribution. The instal
 For Debian / Ubuntu based systems:
 
 ```bash
-sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-gst-plugins-base-1.0 gir1.2-appindicator3-0.1 gir1.2-notify-0.7 python3-requests
+sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-gst-plugins-base-1.0 gir1.2-ayatanaappindicator3-0.1 gir1.2-notify-0.7 python3-requests
 ```
 
 For Arch Linux based systems:
