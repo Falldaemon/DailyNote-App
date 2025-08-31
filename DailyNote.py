@@ -23,6 +23,13 @@ import locale
 APP_NAME = "dailynote"
 HOME = os.path.expanduser("~")
 
+LOCALE_DIR = os.path.join(HOME, ".local", "share", "locale") 
+locale.setlocale(locale.LC_ALL, '')
+locale.bindtextdomain(APP_NAME, LOCALE_DIR)
+gettext.bindtextdomain(APP_NAME, LOCALE_DIR)
+gettext.textdomain(APP_NAME)
+_ = gettext.gettext
+
 installed_dir = os.path.join(HOME, '.local', 'share', APP_NAME)
 is_installed = os.path.abspath(os.path.dirname(__file__)) == installed_dir
 
