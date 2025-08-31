@@ -45,7 +45,7 @@ msgstr "Notlarda ara..."
 msgid "Daily Notes"
 msgstr "Günlük Notlar"
 
-#: DailyNote.py:353
+#: DailyNote.py:353 DailyNote.py:1439
 msgid "Add New Fixed Note/Reminder"
 msgstr "Yeni Sabit Not/Hatırlatıcı Ekle"
 
@@ -73,11 +73,11 @@ msgstr "Alarm"
 msgid "Location"
 msgstr "Konum"
 
-#: DailyNote.py:383
+#: DailyNote.py:383 DailyNote.py:603
 msgid "Weekly View"
 msgstr "Haftalık Görünüm"
 
-#: DailyNote.py:384
+#: DailyNote.py:384 DailyNote.py:614
 msgid "Monthly View"
 msgstr "Aylık Görünüm"
 
@@ -105,17 +105,9 @@ msgstr "Çıkış"
 msgid "No search results found."
 msgstr "Arama sonucu bulunamadı."
 
-#: DailyNote.py:541
+#: DailyNote.py:541 DailyNote.py:993
 msgid "No notes for that day"
 msgstr "O gün için not yok"
-
-#: DailyNote.py:603
-msgid "Weekly View"
-msgstr "Haftalık Görünüm"
-
-#: DailyNote.py:614
-msgid "Monthly View"
-msgstr "Aylık Görünüm"
 
 #: DailyNote.py:750
 msgid "Width:"
@@ -141,11 +133,11 @@ msgstr "Yeni Günlük Not Ekle"
 msgid "Title..."
 msgstr "Başlık..."
 
-#: DailyNote.py:787
+#: DailyNote.py:787 DailyNote.py:820 DailyNote.py:905
 msgid "Content:"
 msgstr "İçerik:"
 
-#: DailyNote.py:796
+#: DailyNote.py:796 DailyNote.py:832 DailyNote.py:1059 DailyNote.py:1233 DailyNote.py:1546
 msgid "Save"
 msgstr "Kaydet"
 
@@ -153,15 +145,7 @@ msgstr "Kaydet"
 msgid "Edit Note"
 msgstr "Notu Düzenle"
 
-#: DailyNote.py:820
-msgid "Content:"
-msgstr "İçerik:"
-
-#: DailyNote.py:832
-msgid "Save"
-msgstr "Kaydet"
-
-#: DailyNote.py:834
+#: DailyNote.py:834 DailyNote.py:1555
 msgid "Delete"
 msgstr "Sil"
 
@@ -180,10 +164,6 @@ msgstr "Evet"
 #: DailyNote.py:902
 msgid "Title"
 msgstr "Başlık"
-
-#: DailyNote.py:905
-msgid "Content:"
-msgstr "İçerik:"
 
 #: DailyNote.py:922
 msgid "Snooze duration (min):"
@@ -204,10 +184,6 @@ msgstr "Alarm {time} zamanına ertelendi."
 #: DailyNote.py:981
 msgid "Select Note for Alarm"
 msgstr "Alarm İçin Not Seç"
-
-#: DailyNote.py:993
-msgid "No notes for that day"
-msgstr "O gün için not yok"
 
 #: DailyNote.py:1022
 msgid "Alarm Settings: {title}"
@@ -236,10 +212,6 @@ msgstr "Ses Seviyesi:"
 #: DailyNote.py:1047
 msgid "Alarm Duration (s):"
 msgstr "Alarm Süresi (sn):"
-
-#: DailyNote.py:1059
-msgid "Save"
-msgstr "Kaydet"
 
 #: DailyNote.py:1060
 msgid "Delete (Remove Alarm)"
@@ -345,10 +317,6 @@ msgstr "Boylam:"
 msgid "00.0000 (East +, West -)"
 msgstr "00.0000 (Doğu +, Batı -)"
 
-#: DailyNote.py:1233
-msgid "Save"
-msgstr "Kaydet"
-
 #: DailyNote.py:1234
 msgid "Reset to Default"
 msgstr "Sıfırla"
@@ -373,31 +341,31 @@ msgstr ""
 msgid "Invalid or incomplete data from API."
 msgstr "API'den geçersiz veya eksik veri geldi."
 
-#: DailyNote.py:1274
+#: DailyNote.py:1274 DailyNote.py:1360 DailyNote.py:1396
 msgid "Monday"
 msgstr "Pazartesi"
 
-#: DailyNote.py:1274
+#: DailyNote.py:1274 DailyNote.py:1360 DailyNote.py:1396
 msgid "Tuesday"
 msgstr "Salı"
 
-#: DailyNote.py:1274
+#: DailyNote.py:1274 DailyNote.py:1360 DailyNote.py:1396
 msgid "Wednesday"
 msgstr "Çarşamba"
 
-#: DailyNote.py:1274
+#: DailyNote.py:1274 DailyNote.py:1360 DailyNote.py:1396
 msgid "Thursday"
 msgstr "Perşembe"
 
-#: DailyNote.py:1274
+#: DailyNote.py:1274 DailyNote.py:1360 DailyNote.py:1396
 msgid "Friday"
 msgstr "Cuma"
 
-#: DailyNote.py:1274
+#: DailyNote.py:1274 DailyNote.py:1360 DailyNote.py:1396
 msgid "Saturday"
 msgstr "Cumartesi"
 
-#: DailyNote.py:1274
+#: DailyNote.py:1274 DailyNote.py:1360 DailyNote.py:1396
 msgid "Sunday"
 msgstr "Pazar"
 
@@ -433,41 +401,9 @@ msgstr "Kapat"
 msgid "Could not retrieve weather data."
 msgstr "Hava durumu verisi alınamadı."
 
-#: DailyNote.py:1360 DailyNote.py:1396
-msgid "Monday"
-msgstr "Pazartesi"
-
-#: DailyNote.py:1360 DailyNote.py:1396
-msgid "Tuesday"
-msgstr "Salı"
-
-#: DailyNote.py:1360 DailyNote.py:1396
-msgid "Wednesday"
-msgstr "Çarşamba"
-
-#: DailyNote.py:1360 DailyNote.py:1396
-msgid "Thursday"
-msgstr "Perşembe"
-
-#: DailyNote.py:1360 DailyNote.py:1396
-msgid "Friday"
-msgstr "Cuma"
-
-#: DailyNote.py:1360 DailyNote.py:1396
-msgid "Saturday"
-msgstr "Cumartesi"
-
-#: DailyNote.py:1360 DailyNote.py:1396
-msgid "Sunday"
-msgstr "Pazar"
-
 #: DailyNote.py:1439
 msgid "Edit Fixed Note/Reminder"
 msgstr "Sabit Notu/Hatırlatıcıyı Düzenle"
-
-#: DailyNote.py:1439
-msgid "Add New Fixed Note/Reminder"
-msgstr "Yeni Sabit Not/Hatırlatıcı Ekle"
 
 #: DailyNote.py:1444
 msgid "Title:"
@@ -501,31 +437,31 @@ msgstr "Aylık (Ayın belirli bir gününde)"
 msgid "Yearly (On a specific date)"
 msgstr "Yıllık (Belirli bir tarihte)"
 
-#: DailyNote.py:1478
+#: DailyNote.py:1478 DailyNote.py:1642
 msgid "Mon"
 msgstr "Pzt"
 
-#: DailyNote.py:1478
+#: DailyNote.py:1478 DailyNote.py:1642
 msgid "Tue"
 msgstr "Sal"
 
-#: DailyNote.py:1478
+#: DailyNote.py:1478 DailyNote.py:1642
 msgid "Wed"
 msgstr "Çar"
 
-#: DailyNote.py:1478
+#: DailyNote.py:1478 DailyNote.py:1642
 msgid "Thu"
 msgstr "Per"
 
-#: DailyNote.py:1478
+#: DailyNote.py:1478 DailyNote.py:1642
 msgid "Fri"
 msgstr "Cum"
 
-#: DailyNote.py:1478
+#: DailyNote.py:1478 DailyNote.py:1642
 msgid "Sat"
 msgstr "Cmt"
 
-#: DailyNote.py:1478
+#: DailyNote.py:1478 DailyNote.py:1642
 msgid "Sun"
 msgstr "Paz"
 
@@ -597,45 +533,9 @@ msgstr "Aralık"
 msgid "Yearly"
 msgstr "Yıllık"
 
-#: DailyNote.py:1546
-msgid "Save"
-msgstr "Kaydet"
-
-#: DailyNote.py:1555
-msgid "Delete"
-msgstr "Sil"
-
 #: DailyNote.py:1584
 msgid "Are you sure you want to delete this fixed note?"
 msgstr "Bu sabit notu silmek istediğinizden emin misiniz?"
-
-#: DailyNote.py:1642
-msgid "Mon"
-msgstr "Pzt"
-
-#: DailyNote.py:1642
-msgid "Tue"
-msgstr "Sal"
-
-#: DailyNote.py:1642
-msgid "Wed"
-msgstr "Çar"
-
-#: DailyNote.py:1642
-msgid "Thu"
-msgstr "Per"
-
-#: DailyNote.py:1642
-msgid "Fri"
-msgstr "Cum"
-
-#: DailyNote.py:1642
-msgid "Sat"
-msgstr "Cmt"
-
-#: DailyNote.py:1642
-msgid "Sun"
-msgstr "Paz"
 
 #: DailyNote.py:1643
 msgid "Jan"
@@ -753,6 +653,3 @@ msgstr "Değişikliklerin etkili olması için lütfen uygulamayı yeniden başl
 msgid "An error occurred during restore:\n{error}"
 msgstr "Geri yükleme sırasında bir hata oluştu:\n{error}"
 
-#: DailyNote.py:1260
-msgid "Select Font"
-msgstr "Yazı Tipi Seç"
