@@ -80,3 +80,19 @@ make uninstall
 ```
 
 This will remove all files, shortcuts, and autostart entries created during installation.
+
+---
+
+### Troubleshooting
+
+**"command not found" Error**
+
+After installation, if you type `dailynote` in the terminal and get a "command not found" error, this is a common issue on some Linux systems.
+
+* **Solution 1 (The Easy Way):** First, try logging out and logging back into your session, or simply restart your computer. On most modern systems, this will solve the problem automatically.
+
+* **Solution 2 (The Manual Way):** If the first solution does not work, run the following command in your terminal to permanently add the installation path to your shell:
+    ```bash
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
+    ```
+    After running this command, you must **close the terminal and open a new one** for the change to take effect.
