@@ -93,6 +93,6 @@ After installation, if you type `dailynote` in the terminal and get a "command n
 
 * **Solution 2 (The Manual Way):** If the first solution does not work, run the following command in your terminal to permanently add the installation path to your shell:
     ```bash
-    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
     ```
     After running this command, you must **close the terminal and open a new one** for the change to take effect.
